@@ -15,7 +15,7 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GAYHUB_TOKEN }}
+          GITHUB_TOKEN: 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
         with:
           tag_name: ${{ github.ref }}
           release_name: ${{ github.ref }}
